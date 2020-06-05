@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
 ReactDOM.render(
   <React.StrictMode>
