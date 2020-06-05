@@ -33,7 +33,14 @@ jobs:
     
     - name: Creating build
       run: yarn build
-    
+    - name: installing react-leaflet
+      run: npm install react-leaflet # npm
+    - name: adding react-leaflet to yarn
+      run: yarn add react-leaflet # Yarn
+    - name: installing react-leaflet dom
+      run: npm install leaflet react react-dom
+    - name: adding react-leaflet to yarn
+      run: yarn add leaflet react react-dom      
     - name: installing surge  
       run: npm install -g surge
     
